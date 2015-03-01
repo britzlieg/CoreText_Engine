@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5705B5341A93259A00091FFE /* demo_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705B5321A93259A00091FFE /* demo_2_ViewController.m */; };
+		5705B5351A93259A00091FFE /* demo_2_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5705B5331A93259A00091FFE /* demo_2_ViewController.xib */; };
+		5705B53A1A9325FE00091FFE /* CTViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5705B5391A9325FE00091FFE /* CTViewB.m */; };
 		571CEAE21A8CC9FA00678D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CEAE11A8CC9FA00678D6C /* main.m */; };
 		571CEAE51A8CC9FA00678D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CEAE41A8CC9FA00678D6C /* AppDelegate.m */; };
 		571CEAED1A8CC9FA00678D6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571CEAEC1A8CC9FA00678D6C /* Images.xcassets */; };
@@ -16,6 +19,7 @@
 		573A8BF51A8D885C00FF390E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573A8BF41A8D885C00FF390E /* CoreText.framework */; };
 		573A8BFB1A8D9AD000FF390E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573A8BF91A8D9AD000FF390E /* ViewController.m */; };
 		573A8BFC1A8D9AD000FF390E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573A8BFA1A8D9AD000FF390E /* ViewController.xib */; };
+		5796A4611A9841370096F975 /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5796A4601A9841370096F975 /* taobao.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5705B5311A93259A00091FFE /* demo_2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo_2_ViewController.h; sourceTree = "<group>"; };
+		5705B5321A93259A00091FFE /* demo_2_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo_2_ViewController.m; sourceTree = "<group>"; };
+		5705B5331A93259A00091FFE /* demo_2_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = demo_2_ViewController.xib; sourceTree = "<group>"; };
+		5705B5381A9325FE00091FFE /* CTViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewB.h; sourceTree = "<group>"; };
+		5705B5391A9325FE00091FFE /* CTViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewB.m; sourceTree = "<group>"; };
 		571CEADC1A8CC9FA00678D6C /* CoreText_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreText_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571CEAE01A8CC9FA00678D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571CEAE11A8CC9FA00678D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 		573A8BF81A8D9AD000FF390E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		573A8BF91A8D9AD000FF390E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		573A8BFA1A8D9AD000FF390E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5796A4601A9841370096F975 /* taobao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taobao.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5705B5301A93249E00091FFE /* demo_2 */ = {
+			isa = PBXGroup;
+			children = (
+				5796A4601A9841370096F975 /* taobao.png */,
+				5705B5311A93259A00091FFE /* demo_2_ViewController.h */,
+				5705B5321A93259A00091FFE /* demo_2_ViewController.m */,
+				5705B5331A93259A00091FFE /* demo_2_ViewController.xib */,
+				5705B5381A9325FE00091FFE /* CTViewB.h */,
+				5705B5391A9325FE00091FFE /* CTViewB.m */,
+			);
+			path = demo_2;
+			sourceTree = "<group>";
+		};
 		571CEAD31A8CC9FA00678D6C = {
 			isa = PBXGroup;
 			children = (
@@ -88,15 +111,13 @@
 		571CEADE1A8CC9FA00678D6C /* CoreText_Test */ = {
 			isa = PBXGroup;
 			children = (
+				5705B5301A93249E00091FFE /* demo_2 */,
 				573A8BF01A8D87A400FF390E /* demo_1 */,
 				571CEAE31A8CC9FA00678D6C /* AppDelegate.h */,
 				571CEAE41A8CC9FA00678D6C /* AppDelegate.m */,
 				571CEAEC1A8CC9FA00678D6C /* Images.xcassets */,
 				571CEAEE1A8CC9FA00678D6C /* LaunchScreen.xib */,
 				571CEADF1A8CC9FA00678D6C /* Supporting Files */,
-				573A8BF81A8D9AD000FF390E /* ViewController.h */,
-				573A8BF91A8D9AD000FF390E /* ViewController.m */,
-				573A8BFA1A8D9AD000FF390E /* ViewController.xib */,
 			);
 			path = CoreText_Test;
 			sourceTree = "<group>";
@@ -130,6 +151,9 @@
 		573A8BF01A8D87A400FF390E /* demo_1 */ = {
 			isa = PBXGroup;
 			children = (
+				573A8BF81A8D9AD000FF390E /* ViewController.h */,
+				573A8BF91A8D9AD000FF390E /* ViewController.m */,
+				573A8BFA1A8D9AD000FF390E /* ViewController.xib */,
 				573A8BF11A8D880900FF390E /* CTDisplayVIew.h */,
 				573A8BF21A8D880900FF390E /* CTDisplayVIew.m */,
 			);
@@ -218,7 +242,9 @@
 			files = (
 				571CEAF01A8CC9FA00678D6C /* LaunchScreen.xib in Resources */,
 				573A8BFC1A8D9AD000FF390E /* ViewController.xib in Resources */,
+				5705B5351A93259A00091FFE /* demo_2_ViewController.xib in Resources */,
 				571CEAED1A8CC9FA00678D6C /* Images.xcassets in Resources */,
+				5796A4611A9841370096F975 /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +264,9 @@
 			files = (
 				571CEAE51A8CC9FA00678D6C /* AppDelegate.m in Sources */,
 				573A8BF31A8D880900FF390E /* CTDisplayVIew.m in Sources */,
+				5705B53A1A9325FE00091FFE /* CTViewB.m in Sources */,
 				573A8BFB1A8D9AD000FF390E /* ViewController.m in Sources */,
+				5705B5341A93259A00091FFE /* demo_2_ViewController.m in Sources */,
 				571CEAE21A8CC9FA00678D6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

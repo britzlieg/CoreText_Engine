@@ -28,7 +28,7 @@
     CGPathAddRect(path, NULL, rect);
     
     // 步骤4，创建绘制内容
-    NSAttributedString *attString = [[NSAttributedString alloc]initWithString:@"My Hello"];
+    NSAttributedString *attString = [[NSAttributedString alloc]initWithString:@"My Hello。My Hello。My Hello。My Hello。My Hello。My Hello。My Hello。My Hello。My Hello。My Hello"];
     CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString((CFAttributedStringRef)attString);
     CTFrameRef frame = CTFramesetterCreateFrame(framesetter, CFRangeMake(0, [attString length]), path, NULL);
     
